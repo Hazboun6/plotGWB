@@ -5,5 +5,6 @@ setup(name='plotGWB',
       author='Elinore Roebber',
       packages=['plotGWB'],
       python_requires='>=3',
-      install_requires=['numpy', 'scipy', 'pandas', 'healpy', 'matplotlib', 'seaborn']
+      install_requires=['numpy', 'scipy', 'pandas', 'healpy', 'matplotlib',
+                        'cycler', 'seaborn']
       )
